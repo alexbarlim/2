@@ -52,7 +52,7 @@ As solicitações de senha será sempre a que você acabou de cadastrar ao criar
 
 Abra o Terminal na pasta que você for querer trabalhar com o repositório clonado. Os comandos devem ser feitos na pasta do repositório.
 
-### Clonando:
+### Clonando
 ```sh
 git clone CAMINHO-DO-SSH
 ```
@@ -72,6 +72,11 @@ git commit -m "update"
 ```sh
 git push
 ```
+### Juntos: status, add, commit e push
+```sh
+git status && git add -A && git commit -m "update" && git push
+```
+
 ## Referências
 
 [Git+GitHub - Evitando Informar Usuário e Senha a cada Push para o GitHub](https://medium.com/@andgomes/git-github-evitando-informar-usu%C3%A1rio-e-senha-a-cada-push-para-o-github-d8edbb5c6de4) -
