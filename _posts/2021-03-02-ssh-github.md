@@ -82,4 +82,4 @@ git status && git add -A && git commit -m "update" && git push
 ## Referências
 
 - [Git+GitHub - Evitando Informar Usuário e Senha a cada Push para o GitHub](https://medium.com/@andgomes/git-github-evitando-informar-usu%C3%A1rio-e-senha-a-cada-push-para-o-github-d8edbb5c6de4)
-- [Como criar um blog no GitHub Pages com Jekyll](https://www.youtube.com/watch?v=z6dx_OUChRs&list=LL)
+- [Como criar um blog no GitHub Pages com Jekyll](https://www.youtube.com/watch?v=z6dx_OUChRs)
