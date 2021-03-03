@@ -29,7 +29,7 @@ Com o programa já aberto você irá em “<b>Source</b>” e escolher a opção
 
 ## Picture
 
-![](https://lh3.googleusercontent.com/-msi9C-GkbWc/YDFb7XesSWI/AAAAAAAABrA/YsdVIDnC2qcqO9dswn8LcdTLVe8-KStygCLcBGAsYHQ/s16000/handbrake-1.jpg)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/handbrake/handbrake-1.jpg)
 
 Com o vídeo selecionado você deverá considerar essas opções na imagem. Como referência irei deixar as recomendações de resolução do Youtube.
 
@@ -49,7 +49,7 @@ Essa opção faz o HandBrake cortar possíveis tarjas pretas no vídeo. Nem semp
 
 Na aba <b>Vídeo</b> vem a parte mais importante do processo.
 
-![](https://lh3.googleusercontent.com/-IWOORrX3C94/YDFb7f3HbLI/AAAAAAAABrE/MYt5Fp1x1NMEDNRA66hK8jkS1x_2j2xyQCLcBGAsYHQ/s16000/handbrake-2.jpg)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/handbrake/handbrake-2.jpg)
 
 Em <b>Vídeo</b> &gt; <b>Vídeo Codec</b> você mantém <b>H.264 (x264)</b>.
 E em &gt; <b>Framerate (FPS)</b> eu deixo <b>23.976</b>. Essa é uma opção pessoal. Caso escolha um framerate maior, irá refletir no tamanho final do vídeo. Ou pode selecionar <b>Same as Source</b> que ele irá manter o framerate original do vídeo que você está convertendo.
@@ -62,7 +62,7 @@ Em <b>Optimise Video</b> coloque <b>Slower</b> em <b>x264 Preset</b>. Mesma cois
 
 ## Áudio
 
-![](https://lh3.googleusercontent.com/-2B0-J06k3R0/YDFb7UFVoQI/AAAAAAAABrM/dlEtyMCh61EQTAnfStCkwvn5TVLppRFhgCLcBGAsYHQ/s16000/handbrake-3.jpg)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/handbrake/handbrake-3.jpg)
 
 Aqui está a parte onde falo o porquê de eu estar usando uma versão antiga do HandBrake. Se você tiver usando uma versão atualizada, dê uma olhada nas opções de codec de áudio. Note que não existem as opções <b>AAC (FDK)</b> e nem a <b>HE-AAC (FDK)</b>. Isso porque são codecs proprietários, e o HandBrake foi obrigado a retirá-los nas novas versões. Você pode usar o <b>AAC (avcodec)</b>, porém, ele é um codec genérico, e talvez você note uma perda de qualidade no áudio.
 
@@ -70,7 +70,7 @@ Caso prefira, poderá tentar usar o MP3. Tanto para o MP3 como para o AAC, siga 
 
 ## Subtitles (Legendas)
 
-![](https://lh3.googleusercontent.com/-IHBEY_qgKPY/YDFb7Whi4II/AAAAAAAABrI/XX3DnT9znIgzBntUc9-con9lKzgJmrn7ACLcBGAsYHQ/s16000/handbrake-4.jpg)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/handbrake/handbrake-4.jpg)
 
 Existem três opções para você escolher aqui:
 
