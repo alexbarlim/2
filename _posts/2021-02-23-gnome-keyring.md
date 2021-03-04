@@ -24,3 +24,6 @@ Caso se arrependa, o que acho muito difícil, dá pra reinstalar usando o comand
 ```sh
 sudo apt-get install gnome-keyring
 ```
+
+### Observação
+Caso já tenha configurado uma senha para o **GNOME Keyring**, ao desinstalar poderá ter problemas com alguns aplicativos que dependem dele, como o **Google Chrome**.
