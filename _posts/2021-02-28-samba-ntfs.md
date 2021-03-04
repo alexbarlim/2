@@ -26,7 +26,9 @@ sudo mkdir /media/HDEXTERNO
 Dê permissões para ela:
 ```sh
 sudo chmod 777 /media/HDEXTERNO
-6. Monte substituindo o "/dev/sda1" pelo seu disco:
+```
+Monte substituindo o "/dev/sda1" pelo seu disco:
+```sh
 sudo mount -t auto /dev/sda1 /media/HDEXTERNO
 ```
 ## SAMBA e NTFS-3G
@@ -53,8 +55,8 @@ Logo no inicio você irá definir as configurações para que o HD fique dispon�
 path = /media/HDEXTERNO
 writable = yes
 browseable = yes
-create mask = 0700
-directory mask = 0700
+create mask = 0777
+directory mask = 0777
 ```
 Salve com ```Ctrl+O```, ```ENTER``` e feche com ```Ctrl+X```.
 
