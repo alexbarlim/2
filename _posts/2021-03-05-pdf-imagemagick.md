@@ -1,5 +1,5 @@
 ---
-title: Unindo imagens e um único PDF com o ImageMagick
+title: Unindo imagens em um único PDF com o ImageMagick
 permalink: /pdf-imagemagick/
 published: true
 tags:
