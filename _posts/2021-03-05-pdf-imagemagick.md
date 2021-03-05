@@ -28,7 +28,7 @@ Também poderá trocar o ```*.jpg``` por ```*.png``` ou até mesmo usar os dois:
 ```sh
 convert *.jpg *.png NOME_DO_PDF.pdf
 ```
-Para mais extensões, é só seguir o modelo adicionando a extensão dando espaço.
+Para mais extensões, é só seguir o modelo adicionando a extensão e dando espaço para cada uma.
 
 ## Observação
 Há um erro comum ao executar o comando para converter em PDF. Isso se deve a uma vulnerabilidade de segurança **que já foi corrigida** no Ghostscript 9.24.
