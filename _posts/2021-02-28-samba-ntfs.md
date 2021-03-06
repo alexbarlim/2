@@ -84,7 +84,7 @@ Salve com ```Ctrl+O```, ```ENTER``` e feche com ```Ctrl+X```.
 
 ## Observações
 ### NextCloud
-Caso venha utilizar o NextCloud, as configurações no **fstab** devem ser diferentes para não causar erros de permissão.
+Caso venha utilizar o NextCloud, as configurações no **fstab** devem ser diferentes para não causar erros de permissões.
 Sugiro o codigo:
 ```sh
 dev/sda1 /media/HDEXTERNO ntfs defaults,nls=utf8,uid=1000,gid=1000,dmask=007 0 0
