@@ -6,6 +6,7 @@ tags:
 - SAMBA
 - NTFS
 - NTFS-3G
+- NextCloud
 - Linux
 excerpt: Com algumas configurações o HD externo em NTFS estará pronto e funcionando na rede. Serve para qualquer servidor utilizando ou baseado no Debian.
 ---
