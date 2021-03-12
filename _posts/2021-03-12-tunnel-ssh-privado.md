@@ -1,6 +1,6 @@
 ---
 title: Google Cloud, Nginx e Certbot - Seu tunnel SSH privado
-permalink: /tunnel-ssh-privado/
+permalink: /tunnel-ssh/
 published: true
 tags: 
 - Google Cloud
