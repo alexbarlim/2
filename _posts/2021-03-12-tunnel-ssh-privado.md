@@ -169,12 +169,14 @@ Onde tem **localhost:80** você deve identificar qual porta você quer que a **3
 
 Vale lembrar que se você desligar/reiniciar o computador ou apenas parar a execução, você deve executar ele novamente.
 
-## EXTRA: Chave SSH - Google Cloud
+## EXTRA:
+### Chave SSH - Google Cloud
+
 O Google é um pouco rígido quanto ao acesso de suas VPS utilizando serviços externos como o próprio SSH ou o PuTTY. E para ter acesso você deve configurar uma chave.
 
 
 
-## Local
+### Gerando e Instalando
 
 Em sua máquina local, a qual você vai se conectar a VPS, execute o comando para criar uma chave. Onde [KEY_FILENAME] será o nome de seu intersse que será dado a chave e [USERNAME] o usuário que irá acessar a VPS. 
 
